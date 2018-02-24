@@ -1,0 +1,46 @@
+(deftheme geeko
+  "Created 2018-02-24.")
+
+(custom-theme-set-variables
+ 'geeko
+ '(linum-format "%3i"))
+
+(custom-theme-set-faces
+ 'geeko
+ '(region ((t (:background "#173f4f"))))
+ '(cursor ((t (:background "#96cb5c"))))
+ '(fringe ((t (:background "#173f4f" :foreground "#c5cfd3"))))
+ '(linum ((t (:background "#2f5361" :foreground "#b9dc92" :box nil :height 100))))
+ '(minibuffer-prompt ((t (:foreground "#81c13b" :weight bold))))
+ '(mode-line ((t (:background "#2f5361" :foreground "#73ba25"))))
+ '(mode-line-inactive ((t (:inherit mode-line :background "#2f5361" :foreground "#b9dc92" :box nil :weight light))))
+ '(font-lock-keyword-face ((t (:foreground "#00a489"))))
+ '(font-lock-type-face ((t (:foreground "#21a4df"))))
+ '(font-lock-constant-face ((t (:foreground "#dceec8"))))
+ '(font-lock-variable-name-face ((t (:foreground "#ccedea"))))
+ '(font-lock-builtin-face ((t (:foreground "#7cb054"))))
+ '(font-lock-string-face ((t (:foreground "#90d1ef"))))
+ '(font-lock-comment-face ((t (:foreground "#8b9fa7"))))
+ '(font-lock-comment-delimiter-face ((t (:foreground "#516f7b"))))
+ '(font-lock-warning-face ((t (:background "#92bd71" :foreground "#173f4f"))))
+ '(font-lock-preprocessor-face ((t (:foreground "#00a489"))))
+ '(font-lock-negation-char-face ((t (:foreground "#73ba25"))))
+ '(font-lock-function-name-face ((t (:foreground "#6da741"))))
+ '(font-lock-doc-face ((t (:foreground "#40bba7"))))
+ '(flymake-errline ((t (:underline nil :background nil :foreground "#CC0000"))))
+ '(flymake-warnline ((t (:background "#444444" :foreground "#fcefa1" :underline nil))))
+ '(tooltip ((default nil) (nil nil)))
+ '(next-error ((t (:inherit (region)))))
+ '(query-replace ((t (:inherit (isearch)))))
+ '(button ((t (:inherit (link)))))
+ '(fixed-pitch ((t (:family "Monospace"))))
+ '(variable-pitch ((t (:family "Sans Serif"))))
+ '(escape-glyph ((t (:foreground "#FF6600"))))
+ '(mode-line-emphasis ((t (:weight bold))))
+ '(mode-line-highlight ((t (:box nil (t (:inherit (highlight)))))))
+ '(highlight ((t (:background "#00a489"))))
+ '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "#999999")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "#999999")) (((class color) (min-colors 8) (background light)) (:foreground "#00ff00")) (((class color) (min-colors 8) (background dark)) (:foreground "#ffff00"))))
+ '(trailing-whitespace ((t (:background "#2f5361"))))
+ '(default ((t (:background "#173f4f" :foreground "#dceec8")))))
+
+(provide-theme 'geeko)

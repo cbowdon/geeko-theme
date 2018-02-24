@@ -1,0 +1,5 @@
+* Geeko Theme for Emacs
+
+A dark theme for Emacs using the [[http://opensuse.github.io/branding-guidelines/][openSUSE color palette]].
+
+I am not associated with the openSUSE project, just a happy lizard.
