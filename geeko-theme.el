@@ -43,9 +43,10 @@
  '(underline ((t (:underline t))))
  '(mode-line-inactive ((t (:inherit mode-line :background "#173f4f" :foreground "#b9dc92" :box (:line-width 1 :color "#35b9ab") :weight medium))))
  '(fringe ((t (:background "#173f4f"))))
- '(default ((t (:background "#173f4f" :foreground "#35b9ab"))))
  '(org-block-begin-line ((t (:background "#516f7b" :inherit org-meta-line))))
  '(org-meta-line ((t (:inherit (font-lock-comment-face)))))
- '(org-block-end-line ((t (:inherit org-meta-line :background "#516f7b")))))
+ '(org-block-end-line ((t (:inherit org-meta-line :background "#516f7b"))))
+ '(default ((t (:background "#173f4f" :foreground "#35b9ab"))))
+ '(term ((t (:inherit default :background "#173f4f" :foreground "#c5cfd3")))))
 
 (provide-theme 'geeko)
